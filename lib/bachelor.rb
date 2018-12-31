@@ -3,22 +3,20 @@ require 'pry'
 
 data_structure = JSON.parse(File.read('spec/fixtures/contestants.json'))
 
-def the_finder(data_structure, key, logic)
+def the_finder(data_structure, key, if_this_key, equals)
   return_array = []
   data_structure.each do |season, season_array|
     season_array.each do |person|
       #binding.pry
-      return_array << person[key] if logic
+      return_array << person[key] if if_this_key == equals)
     end
   end
   return_array
 end
 
 key = "name"
-
-def logic
-  person["age"] == 26
-end
+if_this_key = "age"
+equals = 
 
 test_array = the_finder(data_structure, key, logic)
 
