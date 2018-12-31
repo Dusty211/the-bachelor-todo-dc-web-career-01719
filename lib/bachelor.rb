@@ -8,7 +8,7 @@ def the_finder(data_structure, key, logic)
 end
 
 key = "name"
-logic = 
+logic = "test"
 
 the_finder(data_structure, key, logic)
 
