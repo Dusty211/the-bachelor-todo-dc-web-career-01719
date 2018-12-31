@@ -8,6 +8,7 @@ def the_finder(data_structure, key, logic)
   data_structure.each do |season, season_array|
     season_array.each do |person|
       binding.pry
+      return_array << person[key] if 
     end
   end
   return_array
