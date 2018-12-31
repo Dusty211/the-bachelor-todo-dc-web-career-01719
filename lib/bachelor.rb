@@ -17,8 +17,9 @@ end
 key = "name"
 logic = person["age"] == 26
 
-the_finder(data_structure, key, logic)
+test_array = the_finder(data_structure, key, logic)
 
+binding.pry
 
 def get_first_name_of_season_winner(data, season)
   # code here
