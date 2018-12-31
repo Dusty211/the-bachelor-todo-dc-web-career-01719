@@ -18,7 +18,7 @@ def get_first_name_of_season_winner(data, season)
   binding.pry
 end
 
-get_first_name_of_season_winner(data_structure, "")
+get_first_name_of_season_winner(data_structure, "season 18")
 
 def get_contestant_name(data, occupation)
   # code here
