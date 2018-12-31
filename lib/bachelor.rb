@@ -16,9 +16,9 @@ end
 
 key = "name"
 if_this_key = "age"
-equals = 
+equals = "26"
 
-test_array = the_finder(data_structure, key, logic)
+test_array = the_finder(data_structure, key, if_this_key, equals)
 
 binding.pry
 
