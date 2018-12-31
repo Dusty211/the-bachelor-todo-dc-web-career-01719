@@ -16,7 +16,7 @@ end
 
 
 def fndr(a, b, c)
-  the_finder(a, b, if_this_key, equals)
+  the_finder(data_structure, a, b, c)
 end
 
 binding.pry
