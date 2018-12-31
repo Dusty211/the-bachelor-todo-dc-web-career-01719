@@ -7,7 +7,6 @@ def the_finder(data_structure, return_this_key, if_this_key, equals)
   return_array = []
   data_structure.each do |season, season_array|
     season_array.each do |person|
-      #binding.pry
       return_array << person[return_this_key] if person[if_this_key] == equals
     end
   end
