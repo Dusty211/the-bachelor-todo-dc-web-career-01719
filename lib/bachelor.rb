@@ -14,11 +14,15 @@ def the_finder(data_structure, return_this_key, if_this_key, equals)
   return_array
 end
 
-return_this_key = "name"
-if_this_key = "occupation"
-equals = "Realtor"
+def setfndr(a, b, c)
+return_this_key = a
+if_this_key = b
+equals = c
+end
 
-test_array = the_finder(data_structure, return_this_key, if_this_key, equals)
+def fndr
+  the_finder(data_structure, return_this_key, if_this_key, equals)
+end
 
 binding.pry
 
