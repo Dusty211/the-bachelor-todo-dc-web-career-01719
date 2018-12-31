@@ -1,7 +1,9 @@
 
 require 'pry'
 
-def the_finder(key, logic)
+data_structure = JSON.parse(File.read('spec/fixtures/contestants.json'))
+
+def the_finder(data_structure, key, logic)
 end
 
 binding.pry
