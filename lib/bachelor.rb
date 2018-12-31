@@ -15,7 +15,7 @@ def the_finder(data_structure, key, logic)
 end
 
 key = "name"
-logic = "test"
+logic = person["age"] == 26
 
 the_finder(data_structure, key, logic)
 
