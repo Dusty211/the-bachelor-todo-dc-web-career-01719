@@ -15,7 +15,7 @@ def the_finder(data_structure, return_this_key, if_this_key, equals)
 end
 
 
-def fndr(a, b, c)
+def fndr(data_structure, a, b, c)
   the_finder(data_structure, a, b, c)
 end
 
