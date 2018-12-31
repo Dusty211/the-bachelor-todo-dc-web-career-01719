@@ -7,7 +7,7 @@ def the_finder(data_structure, key, logic)
   binding.pry
 end
 
-key = 
+key = "name"
 logic = 
 
 the_finder(data_structure, key, logic)
