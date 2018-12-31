@@ -14,13 +14,8 @@ def the_finder(data_structure, return_this_key, if_this_key, equals)
   return_array
 end
 
-def setfndr(a, b, c)
-return_this_key = a
-if_this_key = b
-equals = c
-end
 
-def fndr
+def fndr(a, b, c)
   the_finder(data_structure, return_this_key, if_this_key, equals)
 end
 
