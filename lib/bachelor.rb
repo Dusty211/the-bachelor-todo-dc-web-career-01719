@@ -15,8 +15,10 @@ def the_finder(data_structure, return_this_key, if_this_key, equals)
 end
 
 def get_first_name_of_season_winner(data, season)
-  # code here
+  binding.pry
 end
+
+get_first_name_of_season_winner(data, season)
 
 def get_contestant_name(data, occupation)
   # code here
