@@ -14,13 +14,6 @@ def the_finder(data_structure, return_this_key, if_this_key, equals)
   return_array
 end
 
-
-def fndr(data_structure, a, b, c)
-  the_finder(data_structure, a, b, c)
-end
-
-binding.pry
-
 def get_first_name_of_season_winner(data, season)
   # code here
 end
