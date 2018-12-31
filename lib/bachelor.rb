@@ -7,6 +7,12 @@ def the_finder(data_structure, key, logic)
   binding.pry
 end
 
+key = 
+logic = 
+
+the_finder(data_structure, key, logic)
+
+
 def get_first_name_of_season_winner(data, season)
   # code here
 end
