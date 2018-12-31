@@ -4,7 +4,8 @@ require 'pry'
 data_structure = JSON.parse(File.read('spec/fixtures/contestants.json'))
 
 def the_finder(data_structure, key, logic)
-  data_structure.each do |key, value|
+  data_structure.each do |season, hash|
+    value.each do |
     binding.pry
   end
 end
