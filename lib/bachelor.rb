@@ -15,7 +15,10 @@ def the_finder(data_structure, key, logic)
 end
 
 key = "name"
-logic = (person["age"] == 26)
+
+def logic
+  person["age"] == 26
+end
 
 test_array = the_finder(data_structure, key, logic)
 
