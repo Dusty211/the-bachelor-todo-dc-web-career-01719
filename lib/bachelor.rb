@@ -18,6 +18,7 @@ return_this_key = "name"
 if_this_key = "age"
 equals = "26"
 
+test_array = []
 test_array = the_finder(data_structure, return_this_key, if_this_key, equals)
 
 binding.pry
