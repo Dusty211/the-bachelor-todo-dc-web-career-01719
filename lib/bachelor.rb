@@ -14,11 +14,11 @@ def the_finder(data_structure, return_this_key, if_this_key, equals)
   return_array
 end
 
-key = "name"
+return_this_key = "name"
 if_this_key = "age"
 equals = "26"
 
-test_array = the_finder(data_structure, key, if_this_key, equals)
+test_array = the_finder(data_structure, return_this_key, if_this_key, equals)
 
 binding.pry
 
