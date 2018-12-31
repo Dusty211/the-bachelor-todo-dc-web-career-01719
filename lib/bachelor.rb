@@ -4,9 +4,8 @@ require 'pry'
 data_structure = JSON.parse(File.read('spec/fixtures/contestants.json'))
 
 def the_finder(data_structure, key, logic)
+  binding.pry
 end
-
-binding.pry
 
 def get_first_name_of_season_winner(data, season)
   # code here
