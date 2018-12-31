@@ -16,8 +16,7 @@ end
 def get_first_name_of_season_winner(data, season)
   season_data = {}
   season_data[season] = data[season]
-  
-  binding.pry
+  the_finder(season_data, "name", "status", "Winner").join.split.first
 end
 
 get_first_name_of_season_winner(data_structure, "season 18")
