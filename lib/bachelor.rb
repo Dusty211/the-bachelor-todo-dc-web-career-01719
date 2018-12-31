@@ -1,3 +1,11 @@
+
+require 'pry'
+
+def the_finder(key, logic)
+end
+
+binding.pry
+
 def get_first_name_of_season_winner(data, season)
   # code here
 end
